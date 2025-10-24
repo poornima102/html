@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Blog Post</title>
+    <style>
+       
+        .blog-post {
+            width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        .author {
+            font-style: italic;
+            color: gray;
+            text-align: center;
+        }
+
+        
+        p::first-line {
+            font-weight: bold;
+        }
+
+        p::first-letter {
+            font-size: 30px;
+            color: darkred;
+        }
+
+       
+        blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #aaa;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        blockquote::before {
+            content: "“";
+            font-size: 30px;
+            color: darkblue;
+        }
+
+     
+        a:link {
+            color: blue;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .headings {
+            display: flex;
+            gap: 10px;
+        }
+
+        h4 + h4 {
+            color: darkgreen;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="blog-post">
+    <h2>My First Blog Post</h2>
+    <p class="author">By Poornima P</p>
+    <p>
+        Learning web design is an exciting journey. HTML and CSS help us build beautiful webpages that can
+        express our ideas and creativity. With simple steps, anyone can begin designing!
+    </p>
+
+    <blockquote>
+        Simplicity is the key to effective design.
+    </blockquote>
+
+    <p>
+        Visit <a href="https://www.example.com">this website</a> to learn more about web design tutorials.
+    </p>
+
+    <div class="headings">
+        <h4>Web Design</h4>
+        <h4>CSS Styling</h4>
+    </div>
+</div>
+
+</body>
+</html>
