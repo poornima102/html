@@ -4,8 +4,7 @@
     <title>Ariyas Restaurant</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Restaurant Menu Card">        
-    <meta name="keywords" content="restaurant,menu,food,card">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
     <style>
         h3 {
             text-align: right;
@@ -22,47 +21,52 @@
         table {
             border-collapse: collapse;
             border: 2px solid black;
-             width: 60%;
-             margin: 0 auto;
-             text-align: center;
+            width: 60%;
+            margin: 0 auto;
+            text-align: center;
         }
-        th,td {
+        th, td {
             border: 2px solid black;
             padding: 10px;
             vertical-align: middle;
         }
-        a{
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+        a {
             text-decoration: none;
             color: blue;
         }
-        a:hover{
-            background-color:  yellow;
+        a:hover {
+            background-color: yellow;
         }
     </style>
-   
 </head>
 <body>
-    <h3><i class="fa fa-cutlery" aria-hidden="true"></i>Ariyas Restaurant</h3>
+    <h3><i class="fa fa-cutlery" aria-hidden="true"></i> Ariyas Restaurant</h3>
     <p>Welcome to Ariyas Restaurant</p>
-    <table border="1">
+
+    <table>
         <tr>
-            <th>items</th>
+            <th>Items</th>
             <th>Price</th>
         </tr>
         <tr>
-            <td>mutton biryani</td>
+            <td>Mutton Biryani</td>
             <td>₹300</td>
         </tr>
         <tr>
-            <td>veg fried rice</td>
+            <td>Veg Fried Rice</td>
             <td>₹150</td>
         </tr>
         <tr>
-            <td>chicken noodles</td>
+            <td>Chicken Noodles</td>
             <td>₹200</td>
         </tr>
     </table>
+
     <br>
     <i class="fa fa-heart" aria-hidden="true"></i>
     <a href="https://www.example.com">Visit our website</a>
 </body>
+</html>
